@@ -8,19 +8,21 @@ Steps to install/config the framework:
 
 Install Node JS
 
-npm init
+Run the following commands 
 
-npm install webdriverio --save-dev
+    npm init
 
-npm install @wdio/cli
+    npm install webdriverio --save-dev
 
-./node_modules/.bin/wdio config
+    npm install @wdio/cli
 
-npm install chai --save-dev
+    ./node_modules/.bin/wdio config
 
-npm install chai-webdriverio --save-dev
+    npm install chai --save-dev
 
-npm install local-runner --save-dev
+    npm install chai-webdriverio --save-dev
+
+    npm install local-runner --save-dev
 
 
 Go into our configuration file [wdio.conf.js] and go to the beforeTest section. Uncomment and add this:
